@@ -15,3 +15,52 @@ Exception of type	0	ASP.Net	Low	Certain
 Microsoft OLE DB Provider	0	ASP.Net	Low	Certain
 Error ([\d-]+) \([\dA-F]+\)	0	ASP.Net	Low	Certain
 at ([a-zA-Z0-9]*\.)*([a-zA-Z0-9]*)\([a-zA-Z0-9, ]*\)	0	ASP.Net	Low	Certain
+Unclosed quotation mark	0 Microsoft SQL Server  Low Certain
+quoted string not properly terminated   0   Oracle  Low Certain
+DB Error:   0   Maria   Low Certain
+Error: Unknown column   0   MySQL   Low Certain
+Warning.*mysql_.*  0   MySQL   Low Certain
+valid MySQL result   0   MySQL   Low Certain
+MySqlClient\.   0   MySQL   Low Certain
+com\.mysql\.jdbc\.exceptions    0   MYSQL   Low Certain
+warning mysql_  0   MYSQL   Low Certain
+warning.*mssql_.*  0   Microsoft SQL Server    Low Certain
+Driver.* SQL[\-\_\]*Server  0  Microsoft SQL Server    Low Certain
+(\W|\A)SQL Server.*Driver   0  Microsoft SQL Server    Low Certain
+(?s)Exception.*\W   0   Microsoft SQL Server    Low Certain
+Conversion failed when converting the   0   Microsoft SQL Server    Low Certain
+1062 Duplicate entry    0    MYSQL   Low    Certain
+PostgreSQL.*ERROR   0   PostgreSQL  Low Certain
+Warning.*\Wpg_.*    0   PostgreSQL  Low Certain
+valid PostgreSQL result    0   PostgreSQL  Low Certain
+Npgsql\.    0   PostgreSQL  Low Certain
+org\.postgresql\.util\.PSQLException    0   PostgreSQL  Low Certain
+\bORA-[0-9][0-9][0-9][0-9]  0   Oracle  Low Certain
+Oracle.*Driver]  0   Oracle  Low Certain
+Warning.*\Woci_.*  0   Oracle  Low Certain
+Warning.*\Wora_.*  0   Oracle  Low Certain
+CLI Driver.*DB2     0   DB2 Low Certain
+DB2 SQL error   0   DB2 Low Certain
+db2_\w+\(   0   DB2 Low Certain
+\bdb2_\w+\( 0   DB2 Low Certain
+SQLite/JDBCDriver   0   SQLite  Low Certain
+SQLite.Exception    0   SQLite  Low Certain
+System.Data.SQLite.SQLiteException    0   SQLite  Low Certain
+Warning.*sqlite_.*  0   SQLite  Low Certain
+Warning.*SQLite3::  0   SQLite  Low Certain
+\[SQLITE_ERROR\]    0   SQLite  Low Certain
+(?i)Warning.*sybase.*   0   Sybase  Low Certain
+Sybase message  0   Sybase  Low Certain
+Sybase.*Server message.*    0   Sybase  Low Certain
+Warning: oci_parse()    0   Oracle  Low Certain
+[function.ibase.query]  0   Firebird    Low Certain
+Dynamic SQL Error   0   Firebird    Low Certain
+Warning.*ibase_.*   0   Firebird    Low Certain
+Exception.*Informix 0   Informix    Low Certain
+SQL error.*POS([0-9]+).*    0   SAP MaxDB   Low Certain
+Warning.*maxdb.*    0   SAP MaxDB   Low Certain
+Warning.*ingre_ 0   Ingres DB Low Certain
+Ingres SQLSTATE 0   Ingres DB   Low Certain
+Ingres\W.*Driver    0   Ingres DB   Low Certain
+HSQLDB  0   Ingres DB   Low Certain
+org\.hsqldb\.jdbc   0   HyperSQL    Low Certain
